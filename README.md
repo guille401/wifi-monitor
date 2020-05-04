@@ -14,7 +14,7 @@ Information provided in the Telegram message:
 * Client MAC address
 * Client BSSID if connected
 * Access Point Location. Correlates against a known aps csv file
-* Device vendor. Use https://api.macvendors.com/ to resolve device vendor via MAC address
+* Device vendor. Uses https://api.macvendors.com/ to resolve device vendor via MAC address
 
 ## Prerequisites / Installation
 
