@@ -1,0 +1,10 @@
+{
+  "defaults": {
+    "airodump_capture": "airodumpCapture-01.csv",
+    "know_hosts": "known_hosts.csv",
+	"known_aps": "known_aps.csv"
+  },
+  "session": {
+    "token": "1186798972:AAGgNOO3J0_1f8Fvmi_S42zbtoh1yo8hTAY"
+  }
+}
