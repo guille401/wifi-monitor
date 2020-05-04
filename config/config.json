@@ -2,7 +2,7 @@
   "defaults": {
     "airodump_capture": "airodumpCapture-01.csv",
     "know_hosts": "known_hosts.csv",
-	"known_aps": "known_aps.csv"
+    "known_aps": "known_aps.csv"
   },
   "session": {
     "token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
