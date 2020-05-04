@@ -61,16 +61,17 @@ The configuration of the tool are all in `config.json` and looks like this:
 Configuration values are as follows:
 
 - `airodump_capture` - This is the input file path.
+
+```bash
+$ airodump-ng wlan1mon -w airodumpCapture --write-interval 30 --output-format csv
+```
 - `know_hosts` - This is the known clients file path. This file will be filled by the script in the first run. The script will compare new devices against this file
 - `known_aps` - This is the known access point file path. This file will host the known network locations. For example, you can map your home access point MAC with any tag (like HOME)
 - `token` - Telegram bot access token
 
 ## Execution
 
-Run airodump-ng:
-```bash
-$ airodump-ng wlan1mon -w airodumpCapture --write-interval 30 --output-format csv
-```
+
 To run or execute the Wifi Monitor script, simply run the script using this command: `./wifi-monitor.rb`
 
 
