@@ -58,7 +58,7 @@ The configuration of the tool are all in `config.json` and looks like this:
   }
 }
 ```
-In this configuration the following configuration values are as follows:
+Configuration values are as follows:
 
 - `airodump_capture` - This is the input file path.
 - `know_hosts` - This is the known clients file path. This file will be filled by the script in the first run. The script will compare new devices against this file
